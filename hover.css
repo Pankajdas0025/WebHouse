@@ -1,0 +1,27 @@
+#desnav a:hover{
+    text-decoration: overline;
+    color: rgb(113, 89, 89);
+
+}.masksec1:hover{
+    position: absolute;
+    width: 100%;
+    height:600px;
+    opacity:1;
+    background-color:transparent;
+    backdrop-filter: blur(5px);
+}#Home:hover{
+    animation: none;
+}
+
+.hero-Home button:hover{
+   background-color: rgb(232, 232, 39);
+   color: black;
+   text-shadow:none;
+}
+@keyframes BGA {
+
+    25%{   background-image: url(Images/bb.jpg);}
+    75%{   background-image: url(Images/bb1.jpg);}
+    100%{   background-image: url(Images/bb3.jpg);}
+    
+}
